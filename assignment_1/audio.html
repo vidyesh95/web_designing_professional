@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+    <meta name="description" content="HTML Code to Embed any mp3 file using audio tag with following functionality.">
+    <meta property="og:title" content="Audio">
+    <meta property="og:type" content="website">
+</head>
+
+<body>
+    <h1>
+        <center>Audio</center>
+    </h1>
+    <p>
+        Write HTML Code to Embed any mp3 file using audio tag with following functionality.
+    <ol type="1">
+        <li>mp3 file must be automatically played when the browser reloads.</li>
+        <li>The mp3 file must be played again when the seek bar reaches end.</li>
+    </ol>
+    </p>
+    <figure>
+        <!-- onload="play()" -->
+        <audio id="audio-player"
+            src="https://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mp3"
+            autoplay preload="auto" loop controls>
+            Your browser does not support the audio. Please use latest chrome browser.
+        </audio>
+        <figcaption>
+            <a href="https://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3">
+                paza-moduless.mp3
+            </a>
+        </figcaption>
+    </figure>
+    <!-- <script>
+        // document.addEventListener('DOMContentLoaded', (event) => {
+        //     const audioPlayer = document.getElementById('audio-player');
+        //     audioPlayer.play().catch(error => {
+        //         // Handle the error or show a UI element to let users manually start playback
+        //         console.error("Autoplay was prevented by the browser:", error);
+        //         // Optionally, show a play button or some other UI element to start playback
+        //     });
+        // });
+
+        // function play() {
+        //     document.getElementById('audio-player').play();
+        // }
+    </script> -->
+</body>
+
+</html>
