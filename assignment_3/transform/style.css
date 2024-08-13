@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#main-content {
+  background-color: bisque;
+  width: 100%;
+  width: max-content;
+  padding: 64px;
+  border-radius: 16px;
+  margin: 0 auto;
+  margin-top: 128px;
+}
+
+.trans {
+  color: white;
+  width: 100%;
+  width: max-content;
+  background-color: #f5640c;
+  padding: 12px 16px;
+  border-radius: 8px;
+  transition-property: transform;
+  transition-duration: 300ms;
+}
+
+.trans:hover {
+  background-color: #34c349;
+  transform: translateX(300px);
+}
