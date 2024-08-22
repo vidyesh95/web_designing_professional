@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#main-content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: beige;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid brown;
+}
+
+#container1 {
+  display: flex;
+  justify-content: center;
+  border: 2px solid yellowgreen;
+  height: 400px;
+}
+
+#container2 {
+  display: flex;
+  align-items: center;
+  border: 2px solid palevioletred;
+  height: 400px;
+}
